@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.liser.common.dao.Ac01" table="AC01" schema="XIONGXC">
+        <id name="aac001" column="AAC001"/>
+        <property name="yac177" column="YAC177"/>
+        <property name="aac002" column="AAC002"/>
+        <property name="aac003" column="AAC003"/>
+        <property name="aac004" column="AAC004"/>
+        <property name="aac005" column="AAC005"/>
+        <property name="aac006" column="AAC006"/>
+        <property name="aac007" column="AAC007"/>
+        <property name="aac008" column="AAC008"/>
+        <property name="aac009" column="AAC009"/>
+        <property name="aac010" column="AAC010"/>
+        <property name="aac011" column="AAC011"/>
+        <property name="aac012" column="AAC012"/>
+        <property name="aac013" column="AAC013"/>
+        <property name="aac014" column="AAC014"/>
+        <property name="aac015" column="AAC015"/>
+        <property name="aac020" column="AAC020"/>
+        <property name="aac021" column="AAC021"/>
+        <property name="aac024" column="AAC024"/>
+        <property name="aac025" column="AAC025"/>
+        <property name="aae004" column="AAE004"/>
+        <property name="aae005" column="AAE005"/>
+        <property name="aae006" column="AAE006"/>
+        <property name="aae007" column="AAE007"/>
+        <property name="aae008" column="AAE008"/>
+        <property name="aae009" column="AAE009"/>
+        <property name="aae010" column="AAE010"/>
+        <property name="yae098" column="YAE098"/>
+        <property name="yae222" column="YAE222"/>
+        <property name="yae245" column="YAE245"/>
+        <property name="yac066" column="YAC066"/>
+        <property name="yac112" column="YAC112"/>
+        <property name="yac005" column="YAC005"/>
+        <property name="yae096" column="YAE096"/>
+        <property name="yac003" column="YAC003"/>
+        <property name="yac067" column="YAC067"/>
+        <property name="yac167" column="YAC167"/>
+        <property name="yac168" column="YAC168"/>
+        <property name="yac169" column="YAC169"/>
+        <property name="yac170" column="YAC170"/>
+        <property name="aae011" column="AAE011"/>
+        <property name="aae036" column="AAE036"/>
+        <property name="aae120" column="AAE120"/>
+        <property name="ykc117" column="YKC117"/>
+        <property name="yae181" column="YAE181"/>
+        <property name="yac295" column="YAC295"/>
+        <property name="yic071" column="YIC071"/>
+        <property name="yae407" column="YAE407"/>
+        <property name="yac171" column="YAC171"/>
+        <property name="aac105" column="AAC105"/>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.liser.common.dao.Tamenu" table="TAMENU" schema="XIONGXC">
+        <id name="menuid" column="MENUID"/>
+        <property name="pmenuid" column="PMENUID"/>
+        <property name="menuname" column="MENUNAME"/>
+        <property name="url" column="URL"/>
+        <property name="menuidpath" column="MENUIDPATH"/>
+        <property name="menunamepath" column="MENUNAMEPATH"/>
+        <property name="iconskin" column="ICONSKIN"/>
+        <property name="selectimage" column="SELECTIMAGE"/>
+        <property name="reportid" column="REPORTID"/>
+        <property name="accesstimeel" column="ACCESSTIMEEL"/>
+        <property name="effective" column="EFFECTIVE"/>
+        <property name="securitypolicy" column="SECURITYPOLICY"/>
+        <property name="isdismultipos" column="ISDISMULTIPOS"/>
+        <property name="quickcode" column="QUICKCODE"/>
+        <property name="sortno" column="SORTNO"/>
+        <property name="resourcetype" column="RESOURCETYPE"/>
+        <property name="menulevel" column="MENULEVEL"/>
+        <property name="isleaf" column="ISLEAF"/>
+        <property name="menutype" column="MENUTYPE"/>
+        <property name="iscache" column="ISCACHE"/>
+        <property name="syspath" column="SYSPATH"/>
+        <property name="useyab003" column="USEYAB003"/>
+        <property name="isaudite" column="ISAUDITE"/>
+        <property name="consolemodule" column="CONSOLEMODULE"/>
+        <property name="typeflag" column="TYPEFLAG"/>
+    </class>
+</hibernate-mapping>

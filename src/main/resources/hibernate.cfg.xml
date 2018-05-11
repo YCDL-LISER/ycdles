@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+
+        <property name="connection.url">jdbc:oracle:thin:@localhost:1521:orcl</property>
+        <property name="connection.driver_class">oracle.jdbc.OracleDriver</property>
+        <mapping class="com.liser.common.bean.Ac02"/>
+        <mapping resource="resource/mapping/Ac02.hbm.xml"/>
+        <mapping resource="resource/mapping/Tamenu.hbm.xml"/>
+        <mapping class="com.liser.common.bean.Tamenu"/>
+        <mapping class="com.liser.common.dao.Tamenu"/>
+        <mapping resource="resource/mapping/Tamenu.hbm.xml"/>
+        <mapping resource="resource/mapping/Ac01.hbm.xml"/>
+        <mapping class="com.liser.common.dao.Ac01"/>
+        <mapping class="com.liser.common.dao.Ac02"/>
+        <mapping resource="com/liser/common/dao/Ac02.hbm.xml"/>
+
+
+        <!-- DB schema will be updated if needed -->
+        <!-- <property name="hbm2ddl.auto">update</property> -->
+    </session-factory>
+</hibernate-configuration>

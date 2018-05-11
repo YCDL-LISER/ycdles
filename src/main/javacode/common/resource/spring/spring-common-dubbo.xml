@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://code.alibabatech.com/schema/dubbo
+        http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <!-- dubbo协议服务接口 -->
+    <dubbo:service interface="com.liser.common.dubbo.LiserBusinessService" ref="liserBusinessService" protocol="dubbo" ></dubbo:service>
+    <!-- dubbo协议服务实现 -->
+    <bean id="liserBusinessService" class="com.liser.common.dubbo.impl.LiserBusinessServiceImpl"></bean>
+
+     <!--http协议服务接口
+    <dubbo:service interface="com.liser.common.service.LiserService" ref="liserService" protocol="http"></dubbo:service>
+    &lt;!&ndash; http协议服务实现 &ndash;&gt;
+    <bean id="liserService" class="com.liser.common.service.impl.LiserServiceImpl"></bean>-->
+
+</beans>

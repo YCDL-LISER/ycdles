@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- 自动扫描 -->
+    <context:component-scan base-package="com.liser.**" />
+
+    <!-- sshm框架加载 -->
+    <import resource="spring/spring-datasource.xml"></import>
+    <import resource="spring/spring-hibernate.xml"></import>
+    <import resource="spring/spring-mybatis.xml"></import>
+    <import resource="spring/spring-mvc.xml"></import>
+
+    <!-- 服务 -->
+    <import resource="spring/spring-dubbo.xml"></import>
+    <import resource="resource/spring/spring-common-webservice.xml"></import>
+    <import resource="resource/spring/spring-common-dubbo.xml"></import>
+    <import resource="resource/spring/spring-common-netty.xml"></import>
+
+</beans>
